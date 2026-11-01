@@ -1,0 +1,4 @@
+/.env
+/evm-gas-oracle
+/coverage.out
+*.test

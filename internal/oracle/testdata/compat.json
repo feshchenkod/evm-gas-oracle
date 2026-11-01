@@ -1,0 +1,849 @@
+[
+  {
+    "name": "ordinary",
+    "blocks": [
+      [
+        "0x3b9aca00"
+      ],
+      [
+        "0x77359400"
+      ],
+      [
+        "0x12a05f200"
+      ],
+      [
+        "0xb2d05e00"
+      ]
+    ],
+    "response": {
+      "number_of_blocks": 4,
+      "latest_block_number": 3,
+      "percentile_1": "1 nanoeth",
+      "percentile_2": "1 nanoeth",
+      "percentile_3": "1 nanoeth",
+      "percentile_4": "1 nanoeth",
+      "percentile_5": "1 nanoeth",
+      "percentile_10": "1 nanoeth",
+      "percentile_15": "1 nanoeth",
+      "percentile_20": "1 nanoeth",
+      "percentile_25": "1 nanoeth",
+      "percentile_30": "2 nanoeth",
+      "percentile_35": "2 nanoeth",
+      "percentile_40": "2 nanoeth",
+      "percentile_45": "2 nanoeth",
+      "percentile_50": "2 nanoeth",
+      "percentile_55": "3 nanoeth",
+      "percentile_60": "3 nanoeth",
+      "percentile_65": "3 nanoeth",
+      "percentile_70": "3 nanoeth",
+      "percentile_75": "3 nanoeth",
+      "percentile_80": "5 nanoeth",
+      "percentile_85": "5 nanoeth",
+      "percentile_90": "5 nanoeth",
+      "percentile_95": "5 nanoeth",
+      "percentile_96": "5 nanoeth",
+      "percentile_97": "5 nanoeth",
+      "percentile_98": "5 nanoeth",
+      "percentile_99": "5 nanoeth",
+      "percentile_100": "5 nanoeth"
+    }
+  },
+  {
+    "name": "fractional-and-scientific",
+    "blocks": [
+      [
+        "0x1"
+      ],
+      [
+        "0x3e7"
+      ],
+      [
+        "0x3e8"
+      ],
+      [
+        "0x2faf080"
+      ],
+      [
+        "0x2faf081"
+      ]
+    ],
+    "response": {
+      "number_of_blocks": 5,
+      "latest_block_number": 4,
+      "percentile_1": "1e-9 nanoeth",
+      "percentile_2": "1e-9 nanoeth",
+      "percentile_3": "1e-9 nanoeth",
+      "percentile_4": "1e-9 nanoeth",
+      "percentile_5": "1e-9 nanoeth",
+      "percentile_10": "1e-9 nanoeth",
+      "percentile_15": "1e-9 nanoeth",
+      "percentile_20": "1e-9 nanoeth",
+      "percentile_25": "9.99e-7 nanoeth",
+      "percentile_30": "9.99e-7 nanoeth",
+      "percentile_35": "9.99e-7 nanoeth",
+      "percentile_40": "9.99e-7 nanoeth",
+      "percentile_45": "0.000001 nanoeth",
+      "percentile_50": "0.000001 nanoeth",
+      "percentile_55": "0.000001 nanoeth",
+      "percentile_60": "0.000001 nanoeth",
+      "percentile_65": "0.05 nanoeth",
+      "percentile_70": "0.05 nanoeth",
+      "percentile_75": "0.05 nanoeth",
+      "percentile_80": "0.05 nanoeth",
+      "percentile_85": "0.050000001 nanoeth",
+      "percentile_90": "0.050000001 nanoeth",
+      "percentile_95": "0.050000001 nanoeth",
+      "percentile_96": "0.050000001 nanoeth",
+      "percentile_97": "0.050000001 nanoeth",
+      "percentile_98": "0.050000001 nanoeth",
+      "percentile_99": "0.050000001 nanoeth",
+      "percentile_100": "0.050000001 nanoeth"
+    }
+  },
+  {
+    "name": "zero-block-skipped",
+    "blocks": [
+      [
+        "0x0",
+        "0x2faf080"
+      ],
+      [],
+      [
+        "0x77359400"
+      ]
+    ],
+    "response": {
+      "number_of_blocks": 1,
+      "latest_block_number": 2,
+      "percentile_1": "2 nanoeth",
+      "percentile_2": "2 nanoeth",
+      "percentile_3": "2 nanoeth",
+      "percentile_4": "2 nanoeth",
+      "percentile_5": "2 nanoeth",
+      "percentile_10": "2 nanoeth",
+      "percentile_15": "2 nanoeth",
+      "percentile_20": "2 nanoeth",
+      "percentile_25": "2 nanoeth",
+      "percentile_30": "2 nanoeth",
+      "percentile_35": "2 nanoeth",
+      "percentile_40": "2 nanoeth",
+      "percentile_45": "2 nanoeth",
+      "percentile_50": "2 nanoeth",
+      "percentile_55": "2 nanoeth",
+      "percentile_60": "2 nanoeth",
+      "percentile_65": "2 nanoeth",
+      "percentile_70": "2 nanoeth",
+      "percentile_75": "2 nanoeth",
+      "percentile_80": "2 nanoeth",
+      "percentile_85": "2 nanoeth",
+      "percentile_90": "2 nanoeth",
+      "percentile_95": "2 nanoeth",
+      "percentile_96": "2 nanoeth",
+      "percentile_97": "2 nanoeth",
+      "percentile_98": "2 nanoeth",
+      "percentile_99": "2 nanoeth",
+      "percentile_100": "2 nanoeth"
+    }
+  },
+  {
+    "name": "large-integers",
+    "blocks": [
+      [
+        "0x1fffffffffffff"
+      ],
+      [
+        "0x20000000000001"
+      ],
+      [
+        "0x10000000000000000000000000"
+      ],
+      [
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+    ],
+    "response": {
+      "number_of_blocks": 4,
+      "latest_block_number": 3,
+      "percentile_1": "9007199.25474099 nanoeth",
+      "percentile_2": "9007199.25474099 nanoeth",
+      "percentile_3": "9007199.25474099 nanoeth",
+      "percentile_4": "9007199.25474099 nanoeth",
+      "percentile_5": "9007199.25474099 nanoeth",
+      "percentile_10": "9007199.25474099 nanoeth",
+      "percentile_15": "9007199.25474099 nanoeth",
+      "percentile_20": "9007199.25474099 nanoeth",
+      "percentile_25": "9007199.25474099 nanoeth",
+      "percentile_30": "9007199.254740993 nanoeth",
+      "percentile_35": "9007199.254740993 nanoeth",
+      "percentile_40": "9007199.254740993 nanoeth",
+      "percentile_45": "9007199.254740993 nanoeth",
+      "percentile_50": "9007199.254740993 nanoeth",
+      "percentile_55": "1.2676506002282295e+21 nanoeth",
+      "percentile_60": "1.2676506002282295e+21 nanoeth",
+      "percentile_65": "1.2676506002282295e+21 nanoeth",
+      "percentile_70": "1.2676506002282295e+21 nanoeth",
+      "percentile_75": "1.2676506002282295e+21 nanoeth",
+      "percentile_80": "1.157920892373162e+68 nanoeth",
+      "percentile_85": "1.157920892373162e+68 nanoeth",
+      "percentile_90": "1.157920892373162e+68 nanoeth",
+      "percentile_95": "1.157920892373162e+68 nanoeth",
+      "percentile_96": "1.157920892373162e+68 nanoeth",
+      "percentile_97": "1.157920892373162e+68 nanoeth",
+      "percentile_98": "1.157920892373162e+68 nanoeth",
+      "percentile_99": "1.157920892373162e+68 nanoeth",
+      "percentile_100": "1.157920892373162e+68 nanoeth"
+    }
+  },
+  {
+    "name": "window",
+    "blocks": [
+      [
+        "0x1"
+      ],
+      [
+        "0x2"
+      ],
+      [
+        "0x3"
+      ],
+      [
+        "0x4"
+      ],
+      [
+        "0x5"
+      ],
+      [
+        "0x6"
+      ],
+      [
+        "0x7"
+      ],
+      [
+        "0x8"
+      ],
+      [
+        "0x9"
+      ],
+      [
+        "0xa"
+      ],
+      [
+        "0xb"
+      ],
+      [
+        "0xc"
+      ],
+      [
+        "0xd"
+      ],
+      [
+        "0xe"
+      ],
+      [
+        "0xf"
+      ],
+      [
+        "0x10"
+      ],
+      [
+        "0x11"
+      ],
+      [
+        "0x12"
+      ],
+      [
+        "0x13"
+      ],
+      [
+        "0x14"
+      ],
+      [
+        "0x15"
+      ],
+      [
+        "0x16"
+      ],
+      [
+        "0x17"
+      ],
+      [
+        "0x18"
+      ],
+      [
+        "0x19"
+      ],
+      [
+        "0x1a"
+      ],
+      [
+        "0x1b"
+      ],
+      [
+        "0x1c"
+      ],
+      [
+        "0x1d"
+      ],
+      [
+        "0x1e"
+      ],
+      [
+        "0x1f"
+      ],
+      [
+        "0x20"
+      ],
+      [
+        "0x21"
+      ],
+      [
+        "0x22"
+      ],
+      [
+        "0x23"
+      ],
+      [
+        "0x24"
+      ],
+      [
+        "0x25"
+      ],
+      [
+        "0x26"
+      ],
+      [
+        "0x27"
+      ],
+      [
+        "0x28"
+      ],
+      [
+        "0x29"
+      ],
+      [
+        "0x2a"
+      ],
+      [
+        "0x2b"
+      ],
+      [
+        "0x2c"
+      ],
+      [
+        "0x2d"
+      ],
+      [
+        "0x2e"
+      ],
+      [
+        "0x2f"
+      ],
+      [
+        "0x30"
+      ],
+      [
+        "0x31"
+      ],
+      [
+        "0x32"
+      ],
+      [
+        "0x33"
+      ],
+      [
+        "0x34"
+      ],
+      [
+        "0x35"
+      ],
+      [
+        "0x36"
+      ],
+      [
+        "0x37"
+      ],
+      [
+        "0x38"
+      ],
+      [
+        "0x39"
+      ],
+      [
+        "0x3a"
+      ],
+      [
+        "0x3b"
+      ],
+      [
+        "0x3c"
+      ],
+      [
+        "0x3d"
+      ],
+      [
+        "0x3e"
+      ],
+      [
+        "0x3f"
+      ],
+      [
+        "0x40"
+      ],
+      [
+        "0x41"
+      ],
+      [
+        "0x42"
+      ],
+      [
+        "0x43"
+      ],
+      [
+        "0x44"
+      ],
+      [
+        "0x45"
+      ],
+      [
+        "0x46"
+      ],
+      [
+        "0x47"
+      ],
+      [
+        "0x48"
+      ],
+      [
+        "0x49"
+      ],
+      [
+        "0x4a"
+      ],
+      [
+        "0x4b"
+      ],
+      [
+        "0x4c"
+      ],
+      [
+        "0x4d"
+      ],
+      [
+        "0x4e"
+      ],
+      [
+        "0x4f"
+      ],
+      [
+        "0x50"
+      ],
+      [
+        "0x51"
+      ],
+      [
+        "0x52"
+      ],
+      [
+        "0x53"
+      ],
+      [
+        "0x54"
+      ],
+      [
+        "0x55"
+      ],
+      [
+        "0x56"
+      ],
+      [
+        "0x57"
+      ],
+      [
+        "0x58"
+      ],
+      [
+        "0x59"
+      ],
+      [
+        "0x5a"
+      ],
+      [
+        "0x5b"
+      ],
+      [
+        "0x5c"
+      ],
+      [
+        "0x5d"
+      ],
+      [
+        "0x5e"
+      ],
+      [
+        "0x5f"
+      ],
+      [
+        "0x60"
+      ],
+      [
+        "0x61"
+      ],
+      [
+        "0x62"
+      ],
+      [
+        "0x63"
+      ],
+      [
+        "0x64"
+      ],
+      [
+        "0x65"
+      ],
+      [
+        "0x66"
+      ],
+      [
+        "0x67"
+      ],
+      [
+        "0x68"
+      ],
+      [
+        "0x69"
+      ],
+      [
+        "0x6a"
+      ],
+      [
+        "0x6b"
+      ],
+      [
+        "0x6c"
+      ],
+      [
+        "0x6d"
+      ],
+      [
+        "0x6e"
+      ],
+      [
+        "0x6f"
+      ],
+      [
+        "0x70"
+      ],
+      [
+        "0x71"
+      ],
+      [
+        "0x72"
+      ],
+      [
+        "0x73"
+      ],
+      [
+        "0x74"
+      ],
+      [
+        "0x75"
+      ],
+      [
+        "0x76"
+      ],
+      [
+        "0x77"
+      ],
+      [
+        "0x78"
+      ],
+      [
+        "0x79"
+      ],
+      [
+        "0x7a"
+      ],
+      [
+        "0x7b"
+      ],
+      [
+        "0x7c"
+      ],
+      [
+        "0x7d"
+      ],
+      [
+        "0x7e"
+      ],
+      [
+        "0x7f"
+      ],
+      [
+        "0x80"
+      ],
+      [
+        "0x81"
+      ],
+      [
+        "0x82"
+      ],
+      [
+        "0x83"
+      ],
+      [
+        "0x84"
+      ],
+      [
+        "0x85"
+      ],
+      [
+        "0x86"
+      ],
+      [
+        "0x87"
+      ],
+      [
+        "0x88"
+      ],
+      [
+        "0x89"
+      ],
+      [
+        "0x8a"
+      ],
+      [
+        "0x8b"
+      ],
+      [
+        "0x8c"
+      ],
+      [
+        "0x8d"
+      ],
+      [
+        "0x8e"
+      ],
+      [
+        "0x8f"
+      ],
+      [
+        "0x90"
+      ],
+      [
+        "0x91"
+      ],
+      [
+        "0x92"
+      ],
+      [
+        "0x93"
+      ],
+      [
+        "0x94"
+      ],
+      [
+        "0x95"
+      ],
+      [
+        "0x96"
+      ],
+      [
+        "0x97"
+      ],
+      [
+        "0x98"
+      ],
+      [
+        "0x99"
+      ],
+      [
+        "0x9a"
+      ],
+      [
+        "0x9b"
+      ],
+      [
+        "0x9c"
+      ],
+      [
+        "0x9d"
+      ],
+      [
+        "0x9e"
+      ],
+      [
+        "0x9f"
+      ],
+      [
+        "0xa0"
+      ],
+      [
+        "0xa1"
+      ],
+      [
+        "0xa2"
+      ],
+      [
+        "0xa3"
+      ],
+      [
+        "0xa4"
+      ],
+      [
+        "0xa5"
+      ],
+      [
+        "0xa6"
+      ],
+      [
+        "0xa7"
+      ],
+      [
+        "0xa8"
+      ],
+      [
+        "0xa9"
+      ],
+      [
+        "0xaa"
+      ],
+      [
+        "0xab"
+      ],
+      [
+        "0xac"
+      ],
+      [
+        "0xad"
+      ],
+      [
+        "0xae"
+      ],
+      [
+        "0xaf"
+      ],
+      [
+        "0xb0"
+      ],
+      [
+        "0xb1"
+      ],
+      [
+        "0xb2"
+      ],
+      [
+        "0xb3"
+      ],
+      [
+        "0xb4"
+      ],
+      [
+        "0xb5"
+      ],
+      [
+        "0xb6"
+      ],
+      [
+        "0xb7"
+      ],
+      [
+        "0xb8"
+      ],
+      [
+        "0xb9"
+      ],
+      [
+        "0xba"
+      ],
+      [
+        "0xbb"
+      ],
+      [
+        "0xbc"
+      ],
+      [
+        "0xbd"
+      ],
+      [
+        "0xbe"
+      ],
+      [
+        "0xbf"
+      ],
+      [
+        "0xc0"
+      ],
+      [
+        "0xc1"
+      ],
+      [
+        "0xc2"
+      ],
+      [
+        "0xc3"
+      ],
+      [
+        "0xc4"
+      ],
+      [
+        "0xc5"
+      ],
+      [
+        "0xc6"
+      ],
+      [
+        "0xc7"
+      ],
+      [
+        "0xc8"
+      ],
+      [
+        "0xc9"
+      ],
+      [
+        "0xca"
+      ],
+      [
+        "0xcb"
+      ],
+      [
+        "0xcc"
+      ],
+      [
+        "0xcd"
+      ]
+    ],
+    "response": {
+      "number_of_blocks": 200,
+      "latest_block_number": 204,
+      "percentile_1": "7e-9 nanoeth",
+      "percentile_2": "9e-9 nanoeth",
+      "percentile_3": "1.1e-8 nanoeth",
+      "percentile_4": "1.3e-8 nanoeth",
+      "percentile_5": "1.5e-8 nanoeth",
+      "percentile_10": "2.5e-8 nanoeth",
+      "percentile_15": "3.5e-8 nanoeth",
+      "percentile_20": "4.5e-8 nanoeth",
+      "percentile_25": "5.5e-8 nanoeth",
+      "percentile_30": "6.5e-8 nanoeth",
+      "percentile_35": "7.5e-8 nanoeth",
+      "percentile_40": "8.5e-8 nanoeth",
+      "percentile_45": "9.5e-8 nanoeth",
+      "percentile_50": "1.05e-7 nanoeth",
+      "percentile_55": "1.15e-7 nanoeth",
+      "percentile_60": "1.25e-7 nanoeth",
+      "percentile_65": "1.35e-7 nanoeth",
+      "percentile_70": "1.45e-7 nanoeth",
+      "percentile_75": "1.55e-7 nanoeth",
+      "percentile_80": "1.65e-7 nanoeth",
+      "percentile_85": "1.75e-7 nanoeth",
+      "percentile_90": "1.85e-7 nanoeth",
+      "percentile_95": "1.95e-7 nanoeth",
+      "percentile_96": "1.97e-7 nanoeth",
+      "percentile_97": "1.99e-7 nanoeth",
+      "percentile_98": "2.01e-7 nanoeth",
+      "percentile_99": "2.03e-7 nanoeth",
+      "percentile_100": "2.05e-7 nanoeth"
+    }
+  }
+]

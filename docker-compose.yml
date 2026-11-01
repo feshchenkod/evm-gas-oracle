@@ -1,0 +1,29 @@
+services:
+  oracle:
+    image: ghcr.io/feshchenkod/evm-gas-oracle:latest
+    build: .
+    restart: unless-stopped
+    read_only: true
+    user: "65532:65532"
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    mem_limit: ${MEMORY_LIMIT:-256m}
+    cpus: 2
+    pids_limit: 128
+    sysctls:
+      net.mptcp.enabled: "0"
+      net.ipv4.ip_unprivileged_port_start: "0"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    environment:
+      ETHEREUM_URL: ${ETHEREUM_URL:-http://host.docker.internal:8545}
+      POLLING_FREQUENCY_SECONDS: ${POLLING_FREQUENCY_SECONDS:-5}
+      ZERO_GAS_PRICE_POLICY: ${ZERO_GAS_PRICE_POLICY:-skip-block}
+      RPC_MAX_REQUESTS_PER_SECOND: ${RPC_MAX_REQUESTS_PER_SECOND:-5}
+      RPC_TIMEOUT: ${RPC_TIMEOUT:-10s}
+      STALE_AFTER: ${STALE_AFTER:-}
+      RPC_MAX_RESPONSE_BYTES: ${RPC_MAX_RESPONSE_BYTES:-33554432}
+      GOMEMLIMIT: ${GOMEMLIMIT:-192MiB}
+      GOMAXPROCS: "2"
+    ports:
+      - "${BIND_ADDR:-127.0.0.1}:${PORT:-8080}:80"
